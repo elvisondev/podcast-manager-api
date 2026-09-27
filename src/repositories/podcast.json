@@ -1,16 +1,64 @@
 [
-  {
-    "podcastName": "podpah",
-    "episode": "CAIOX & OCASTRIN - Podpah #1086",
-    "videoId": "bMXrArJHS1c",
-    "category": ["humor", "memes"]
-  },
-  {
-    "podcastName": "podpah",
-    "episode": " BISTECONE & GABRIEL COXINHA - Podpah #1049",
-    "videoId": "UBv07VGeD24",
-    "category": ["jogos", "streamer"]
-  }
-  
-  
+  [
+    {
+      "podcastName": "podpah",
+      "episode": "CAIOX & OCASTRIN - Podpah #1086",
+      "videoId": "bMXrArJHS1c",
+      "category": ["humor", "memes"]
+    },
+    {
+      "podcastName": "podpah",
+      "episode": "BISTECONE & GABRIEL COXINHA - Podpah #1049",
+      "videoId": "UBv07VGeD24",
+      "category": ["jogos", "streamer"]
+    },
+    {
+      "podcastName": "podpah",
+      "episode": "MILO J - Podpah #1085",
+      "videoId": "uSv-3Sx4oUA",
+      "category": ["musica", "entretenimento"]
+    },
+    {
+      "podcastName": "podpah",
+      "episode": "JÚLIO COCIELO & PEDRO GUI (TUDO SOBRE A VOLTA DO BATE OU REGAÇA) - Podpah #1084",
+      "videoId": "i1YaK4wIQUI",
+      "category": ["humor", "entretenimento"]
+    },
+    {
+      "podcastName": "venus",
+      "episode": "ESPECIAL EPISÓDIO #100 - Venus Podcast",
+      "videoId": "c31_h9b4Se4",
+      "category": ["humor", "entretenimento"]
+    },
+    {
+      "podcastName": "venus",
+      "episode": "CÍNTIA CHAGAS - Venus Podcast #149",
+      "videoId": "86Ir_d5n8ms",
+      "category": ["comportamento", "comunicacao"]
+    },
+    {
+      "podcastName": "venus",
+      "episode": "ISABELI FONTANA - Venus Podcast #330",
+      "videoId": "FiRKUeebHT4",
+      "category": ["entretenimento", "comportamento"]
+    },
+    {
+      "podcastName": "ticaracaticast",
+      "episode": "PEDRO BISMARCK - TICARACATICAST | EP 423",
+      "videoId": "yVLPzIKozJE",
+      "category": ["humor", "comedia"]
+    },
+    {
+      "podcastName": "ticaracaticast",
+      "episode": "EVANDRO SANTO - TICARACATICAST | EP 57",
+      "videoId": "KBr_g4Zhtt0",
+      "category": ["humor", "entretenimento"]
+    },
+    {
+      "podcastName": "ticaracaticast",
+      "episode": "GUI SANTANA E AMANDA RAMALHO - TICARACATICAST | EP 168",
+      "videoId": "05fWCwTOnf0",
+      "category": ["humor", "entretenimento"]
+    }
+  ]
 ]
