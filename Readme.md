@@ -1,6 +1,6 @@
 # 🎙️ Podcast Manager API
 
-API REST para gerenciamento e consulta de episódios de podcasts, desenvolvida com **Node.js** e **TypeScript**, utilizando os módulos nativos do Node.js e **sem o uso de frameworks web**.
+API REST para gerenciamento e consulta de episódios de podcasts, desenvolvida com **Node.js** e **TypeScript**, utilizando módulos nativos do Node.js e **sem o uso de frameworks web**.
 
 O projeto foi desenvolvido com o objetivo de praticar a construção de uma API a partir dos fundamentos do protocolo HTTP, trabalhando com rotas, controllers, services, repositories, query parameters e manipulação de arquivos JSON.
 
@@ -73,10 +73,6 @@ src/
 │   ├── routes-paths.ts
 │   └── routes.ts
 │
-├── script/
-│   ├── podcasts-data.ts
-│   └── seed-podcasts.ts
-│
 ├── services/
 │   ├── filter-episodes-services.ts
 │   └── list-episodes-service.ts
@@ -90,7 +86,7 @@ src/
 └── server.ts
 ```
 
-A aplicação utiliza uma separação de responsabilidades entre as camadas de **controller**, **service** e **repository**.
+A aplicação utiliza uma separação de responsabilidades entre as camadas de **Controller**, **Service** e **Repository**.
 
 O `podcast.json` funciona como o repositório local dos episódios utilizados pela API.
 
@@ -121,7 +117,7 @@ git clone <URL-DO-REPOSITORIO>
 Entre na pasta do projeto:
 
 ```bash
-cd gerenciado-podcast
+cd podcast-manager-api
 ```
 
 Instale as dependências:
@@ -144,7 +140,7 @@ Para executar em modo watch:
 npm run dev:watch
 ```
 
-O servidor será iniciado por padrão em:
+O servidor será iniciado em:
 
 ```text
 http://localhost:3333
@@ -194,18 +190,13 @@ O arquivo `app.drawio` apresenta visualmente o fluxo e a divisão de responsabil
 
 ## 🔮 Melhorias futuras
 
-### Seed de episódios
+### Automação do cadastro de episódios
 
-Implementar os scripts:
+Implementar um script auxiliar para facilitar a alimentação do repositório `podcast.json`.
 
-```text
-podcasts-data.ts
-seed-podcasts.ts
-```
+A proposta futura é permitir que, a partir de um link de vídeo, a aplicação possa obter ou gerar os dados necessários para cadastrar um episódio, reduzindo o preenchimento manual do repositório.
 
-A proposta é utilizar um script auxiliar para popular automaticamente o repositório `podcast.json`, reduzindo a necessidade de cadastrar manualmente os episódios utilizados pela API.
-
-Essa funcionalidade será mantida separada do fluxo HTTP principal da aplicação.
+Essa funcionalidade será desenvolvida futuramente, após o estudo dos conceitos necessários para integração e consumo de APIs externas, permanecendo separada do fluxo HTTP principal da aplicação.
 
 ## 📄 Licença
 
