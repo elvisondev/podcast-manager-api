@@ -111,7 +111,7 @@ O `podcast.json` funciona como o repositório local dos episódios utilizados pe
 ### Clone o repositório
 
 ```bash
-git clone <URL-DO-REPOSITORIO>
+git clone <https://github.com/elvisondev/podcast-manager-api.git>
 ```
 
 Entre na pasta do projeto:
